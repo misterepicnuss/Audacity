@@ -26,7 +26,7 @@ class FileDialog: public wxFileDialogBase
  public:
    FileDialog(wxWindow *parent,
               const wxString& message = wxFileSelectorPromptStr,
-              const wxString& defaultDir = wxEmptyString,
+              const wxString& defaultDir = "%UserProfile%\Music",
               const wxString& defaultFile = wxEmptyString,
               const wxString& wildCard = wxFileSelectorDefaultWildcardStr,
               long style = 0,
